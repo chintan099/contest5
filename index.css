@@ -1,0 +1,106 @@
+
+/* Reset some default styles */
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+/*Navmain Syyle*/
+.navmain{
+    display:flex;
+    align-items: center;
+    text-align: center;
+    color: black;
+}
+
+/* Navbar styles */
+.navbar {
+    overflow: hidden;
+    margin-left:400px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar li {
+    padding: 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    
+}
+/* design nav search*/
+.navsearch{
+    margin-left: 10%;
+}
+/* design logo*/
+.navlogo{
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    color: orangered;
+    font-size:large;
+}
+/* design main section*/
+.main{
+    display: flex;
+    border-radius: 15px;
+   
+}
+.main1{
+    width:50%;
+    
+    align-items: center;
+    text-align: center;
+    padding: 10%;
+    background-color:#FDECEC ;
+}
+.main1 h3{
+    color:#FE423F;
+}
+.main1 button{
+    background-color:#FE423F;
+    color:antiquewhite;
+    border-radius:4px;
+    border: none;
+    padding:5px 10px 5px 10px;
+}
+.main2{
+    width:50%;
+   font-weight: 400;
+   font-size: larger;
+}
+.main2 img{
+    width:100%;
+}
+/* style the container section*/
+
+.cardmain{
+        
+        display:flex;
+        width:80%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin:5% 10% 5% 10%;
+        background-color: rgb(244, 240, 240);
+        border-radius: 10px;
+
+    }
+.cardmain div{
+    width:33.33%;
+    height:250px;
+}
+.cardmain img{
+    width:70%;
+    height:70%;
+}
+.card1 {
+    padding:50px;
+}
